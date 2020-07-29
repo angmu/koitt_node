@@ -1,0 +1,194 @@
+Your environment has been set up for using Node.js 12.18.2 (x64) and npm.
+
+C:\Users\user.user-PC>dir/w                      //안에 뭐가 있는지 볼수있는 명령어
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: F80A-A329
+
+ C:\Users\user.user-PC 디렉터리
+
+[.]
+[..]
+[.atom]
+.bash_history
+[.bundle]
+[.config]
+[.eclipse]
+[.gem]
+.gitconfig
+[.m2]
+[.p2]
+[.sts4]
+[.tooling]
+.viminfo
+amuguna.sql
+amuguna~1.sql
+[Contacts]
+[deployer-resource-cache3714041076131149566]
+[deployer-resource-cache4096824149119928208]
+[Desktop]
+[Documents]
+[Downloads]
+[eclipse-workspace]
+[Favorites]
+[hsperfdata_user]
+[Links]
+[Music]
+[Oracle]
+ora_user.sql
+ora_user1.sql
+ora_user2.sql
+ora_user3.sql
+ora_user4.sql
+ora_user5.sql
+ora_user6.sql
+[Pictures]
+[Saved Games]
+[Searches]
+studb.sql
+[Videos]
+              13개 파일              27,764 바이트
+              27개 디렉터리  410,590,539,776 바이트 남음
+
+C:\Users\user.user-PC>cd/                                            //제일 바깥으로 나오는 명령어.
+
+C:\>dir/w
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: F80A-A329
+
+ C:\ 디렉터리
+
+[3DP]                         [AutoSet9]
+[backup]                      [dboracle]
+[eXERD]                       [Intel]
+[LogExample]                  [mysql-connector-java-5.1.29]
+[Nexon]                       [oracle11g]
+[PerfLogs]                    [Program Files]
+[Program Files (x86)]         RHDSetup.log
+[Ruby26-x64]                  [server]
+Setup.log                     [TEMP]
+[upload]                      [user]
+[Users]                       [Windows]
+[work]
+               2개 파일               2,579 바이트
+              21개 디렉터리  410,590,404,608 바이트 남음
+
+C:\>cd Program Files
+
+C:\Program Files>dir/w
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: F80A-A329
+
+ C:\Program Files 디렉터리
+
+[.]                          [..]
+[4KDownload]                 [Adobe]
+[AhnLab]                     [Apache Software Foundation]
+[AVAST Software]             [Bandizip]
+[Common Files]               [DVD Maker]
+[ESTsoft]                    [Evolus]
+[FileZilla FTP Client]       [Git]
+[Intel]                      [Internet Explorer]
+[Java]                       [JetBrains]
+[Mozilla Firefox]            [MSBuild]
+[MySQL]                      [nodejs]
+[NVIDIA Corporation]         [Oracle]
+[Realtek]                    [RealVNC]
+[Reference Assemblies]       [Samsung]
+[sqldeveloper]               [Windows Defender]
+[Windows Mail]               [Windows Media Player]
+[Windows NT]                 [Windows Photo Viewer]
+[Windows Portable Devices]   [Windows Sidebar]
+[Wizvera]
+               0개 파일                   0 바이트
+              37개 디렉터리  410,590,330,880 바이트 남음
+
+C:\Program Files>cd nodejs
+
+C:\Program Files\nodejs>dir/w
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: F80A-A329
+
+ C:\Program Files\nodejs 디렉터리
+
+[.]                     [..]                    install_tools.bat
+node.exe                nodevars.bat            node_etw_provider.man
+[node_modules]          npm                     npm.cmd
+npx                     npx.cmd
+               8개 파일          29,840,188 바이트
+               3개 디렉터리  410,587,832,320 바이트 남음
+
+C:\Program Files\nodejs>cd..
+
+C:\Program Files>cd..
+
+C:\>d:
+
+D:\>workspace>cd node_07_02
+'workspace'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
+배치 파일이 아닙니다.
+
+D:\>cd workspace
+
+D:\workspace>cd node_0702
+지정된 경로를 찾을 수 없습니다.
+
+D:\workspace>cd.
+
+D:\workspace>cd..
+
+D:\>cd ee
+
+D:\ee>node_0702 run
+'node_0702'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
+배치 파일이 아닙니다.
+
+D:\ee>cd node_0702
+
+D:\ee\node_0702>ex0702_01.js
+Microsoft (R) Windows Script Host 버전 5.8
+Copyright (C) Microsoft Corporation 1996-2001. All rights reserved.
+
+D:\ee\node_0702\ex0702_01.js(4, 1) Microsoft JScript 런타임 오류: 'console'이(가
+) 정의되지 않았습니다.
+
+
+D:\ee\node_0702>ex0702_01.js
+Microsoft (R) Windows Script Host 버전 5.8
+Copyright (C) Microsoft Corporation 1996-2001. All rights reserved.
+
+D:\ee\node_0702\ex0702_01.js(5, 1) Microsoft JScript 런타임 오류: 'console'은(는
+) null 이거나 개체가 아닙니다.
+
+
+
+
+--------------여기부터 외부모듈 설치법
+
+Your environment has been set up for using Node.js 12.18.2 (x64) and npm.
+
+C:\Users\user.user-PC>cd..
+
+C:\Users>cd..
+
+C:\>d:
+
+D:\>cd ee
+
+D:\ee>cd node_0702               ////1. 프로젝트 안으로 들어가야됨
+
+
+D:\ee\node_0702>npm install nconf     ///2. 설치
+npm WARN saveError ENOENT: no such file or directory, open 'D:\ee\node_0702\pack
+age.json'
+npm notice created a lockfile as package-lock.json. You should commit this file.
+
+npm WARN enoent ENOENT: no such file or directory, open 'D:\ee\node_0702\package
+.json'
+npm WARN node_0702 No description
+npm WARN node_0702 No repository field.
+npm WARN node_0702 No README data
+npm WARN node_0702 No license field.
+
++ nconf@0.10.0
+added 20 packages from 18 contributors and audited 20 packages in 1.29s
+found 0 vulnerabilities

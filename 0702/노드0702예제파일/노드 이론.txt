@@ -1,0 +1,8 @@
+var module1=require('module_1') 이런식으로 import
+
+모듈(java에서class와 같은기능..)에서 request와 response.
+>>초기 mvc모양이랑 흡사하게 ...
+(contextpath등을 찾아서 구동..)
+
+모듈을 만드는 이유 >>code의 재사용
+(class에서는 객체생성을 통해서 재사용)
